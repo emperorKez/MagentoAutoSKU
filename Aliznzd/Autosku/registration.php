@@ -6,6 +6,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Yota_Autosku',
+    'Aliznzd_Autosku',
     __DIR__
 );

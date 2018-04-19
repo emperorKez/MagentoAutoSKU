@@ -1,5 +1,5 @@
 <?php
-namespace Yota\Autosku\Ui\DataProvider\Product\Form\Modifier;
+namespace Aliznzd\Autosku\Ui\DataProvider\Product\Form\Modifier;
 
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AbstractModifier;
 
