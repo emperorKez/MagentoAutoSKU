@@ -1,5 +1,5 @@
 <?php
-namespace Aliznzd\Autosku\Ui\DataProvider\Product\Form\Modifier;
+namespace aliznzd\Autosku\Ui\DataProvider\Product\Form\Modifier;
 
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AbstractModifier;
 
@@ -75,7 +75,7 @@ class Modifysku extends AbstractModifier
 			$product  			= 	$collection->getFirstItem();
 			$lastMacthedSku 	=	$product->getSku();
 			$findLastIncrement 	=   (int) preg_replace('/[^0-9]/', '', $lastMacthedSku);
-			$nextInrement   	= 	++$findLastIncrement;
+			$nextInrement   	= 	rand(100000,999999);
 			$incrementLength 	= 	strlen($findLastIncrement) + strlen($_prefix);//
 			$skuToassign 		=	$_prefix.str_pad(
 												$skuToassign,
